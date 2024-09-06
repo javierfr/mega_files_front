@@ -1,0 +1,16 @@
+
+
+//theme dark
+@if $enable-dark-mode{
+    @include color-mode(dark, true){
+        --#{$prefix}light: #{$light-dark};
+        --#{$prefix}light-rgb: #{to-rgb($light-dark)};
+        --#{$prefix}dark: #{$dark-dark};
+        --#{$prefix}dark-rgb: #{to-rgb($dark-dark)};
+        --#{$prefix}white: #{$white-dark};
+
+        .rightbar-title{
+            background-color: $light-dark;
+        }
+    }
+}

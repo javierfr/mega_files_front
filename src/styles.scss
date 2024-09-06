@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+// @import '~bootstrap/scss/bootstrap';
+
+.cdksteppercontent {
+    .content {
+        margin-top: 0px !important;
+    }
+}
+
+// .stepper-header[_ngcontent-ng-c625643793] .steps[_ngcontent-ng-c625643793] {
+//     width: 100%;
+//     list-style: none;
+//     display: inline-flex;
+//     align-items: center;
+//     margin: 0 auto;
+//     flex-wrap: wrap;
+//     padding-left: 0;
+//     margin-bottom: 0;
+//     list-style: none;
+
+//     .steps {
+//         flex-basis: 0;
+//         -webkit-box-flex: 1;
+//         -ms-flex-positive: 1;
+//         flex-grow: 1;
+//         text-align: center;
+
+
+//     }
+// }
+
+// .stepper-header[_ngcontent-ng-c625643793] .steps[_ngcontent-ng-c625643793] {
+//     .step.active {
+//         width: 100%;
+//         font-size: 14px;
+//         position: relative;
+
+//         .step-icon {
+//             display: inline-block;
+//             width: 56px;
+//             height: 56px;
+//             line-height: 54px;
+//             border: 1px solid rgba(3, 142, 220, .2);
+//             color: #038edc;
+//             text-align: center;
+//             border-radius: 50%;
+//             position: relative;
+//             z-index: 1;
+//             font-size: 20px;
+//         }
+//     }
+// }

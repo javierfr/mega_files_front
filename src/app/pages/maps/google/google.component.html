@@ -1,0 +1,41 @@
+<!-- start page title -->
+<app-pagetitle title="Google maps" [breadcrumbItems]="breadCrumbItems"></app-pagetitle>
+<!-- end page title -->
+
+<div class="row">
+    <div class="col-lg-6">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Google Markers</h4>
+                <p class="card-title-dsec">Example of google maps.</p>
+                <google-map [latitude]="latitude" [longitude]="longitude" [zoom]="15" width="100%"
+                    height="300px"></google-map>
+            </div>
+        </div>
+    </div> <!-- end col -->
+    <div class="col-lg-6">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Google Overlays</h4>
+                <p class="card-title-desc">Example of google maps.</p>
+                <google-map height="300px" width="100%" [options]="mapOptions">
+                    <map-marker *ngFor="let marker of markers" [position]="marker.position"></map-marker>
+                </google-map>
+            </div>
+        </div>
+    </div> <!-- end col -->
+</div> <!-- end row -->
+
+<div class="row">
+
+    <div class="col-lg-6">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Map Types</h4>
+                <p class="card-title-desc">Example of google maps.</p>
+                <google-map [latitude]="latitude" [longitude]="longitude" [zoom]="5" width="100%"
+                    height="300px"></google-map>
+            </div>
+        </div>
+    </div> <!-- end col -->
+</div> <!-- end row -->

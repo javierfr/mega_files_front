@@ -1,0 +1,21 @@
+:root {
+    --#{$prefix}footer-color:                          #74788d;
+    --#{$prefix}footer-shadow:                         0 0px 4px rgba(15, 34, 58, .12);
+    --#{$prefix}text-muted:                            #{$gray-600};
+    --#{$prefix}input-bg:                              #{$white};
+    --#{$prefix}input-border-color:                    #{$gray-400};
+    --#{$prefix}form-check-input-border:               #{$gray-500};
+    --#{$prefix}input-focus-border-color:              #{darken($gray-400, 15%)};
+    --#{$prefix}form-select-focus-border-color:        #{darken($gray-300, 10%)};
+    --#{$prefix}border-color:                          #{$gray-300};
+    --#{$prefix}light:                                 #{$white};
+    --#{$prefix}white:                                 #{$white};
+    --#{$prefix}dark:                                  #{lighten($gray-800, 5%)};
+
+        // Horizontal nav
+    --#{$prefix}topnav-bg:                             #{$white};
+}
+
+.accordion {
+    --#{$prefix}accordion-color:                       #{$body-color};
+}
