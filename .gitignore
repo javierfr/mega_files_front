@@ -1,0 +1,54 @@
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+out-tsc/
+
+# Temporary files
+tmp/
+temp/
+
+# Compiled TypeScript
+*.js
+*.js.map
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+environment.prod.ts
+environment.ts
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Angular cache
+.angular/cache/
+
+# Compiled files from SCSS/CSS
+*.css
+*.css.map
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional TypeScript cache
+*.tsbuildinfo
